@@ -10,7 +10,7 @@ export function NxWelcome({ title }: { title: string }) {
     <>
       <h1>{title}</h1>
       <p>
-      Test with cloud build
+      Test with cloud build {Date.now().toLocaleString()}
       </p>
     </>
   )
