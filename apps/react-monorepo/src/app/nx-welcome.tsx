@@ -11,6 +11,7 @@ export function NxWelcome({ title }: { title: string }) {
       <h1>{title}</h1>
       <p>
       Test with cloud build {new Date().toLocaleDateString()}
+        Edited
       </p>
     </>
   )
