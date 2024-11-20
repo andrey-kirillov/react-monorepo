@@ -10,8 +10,7 @@ export function NxWelcome({ title }: { title: string }) {
     <>
       <h1>{title}</h1>
       <p>
-        Welcome to the Nx Monorepo! This is a starter component and can be
-        deleted.
+      Test with cloud build
       </p>
     </>
   )
