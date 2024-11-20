@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx run-many --target=build -- --base=/react-monorepo/",
+    "startTime": "2024-11-20T19:14:31.542Z",
+    "endTime": "2024-11-20T19:14:32.842Z",
+    "inner": false
+  },
+  "tasks": []
+}
