@@ -1,19 +1,5 @@
 {
   "name": "app1",
-  "version": "4.0.0",
-  "private": true,
-  "scripts": {
-    "start": "nx serve app1",
-    "build": "nx build app1",
-    "test": "nx test app1",
-    "lint": "nx lint app1"
-  },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "devDependencies": {
-    "@nrwl/react": "latest",
-    "typescript": "^5.0.0"
-  }
+  "version": "5.0.0",
+  "private": true
 }
