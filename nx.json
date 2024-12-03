@@ -56,5 +56,13 @@
         "linter": "eslint"
       }
     }
+  },
+  "release": {
+    "projects": ["apps/*"],
+    "projectsRelationship": "independent",
+    "releaseTagPattern": "release/{projectName}/{version}",
+    "changelog": {
+      "projectChangelogs": true
+    }
   }
 }
