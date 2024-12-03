@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d ./dist/apps/react-monorepo",
     "build": "nx run-many --target=build --skip-nx-cache --base=\"/app1/react-monorepo/\""
   },
   "private": true,
